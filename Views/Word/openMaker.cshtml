@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+<body style="text-align:center">
+    <script type="text/javascript">
+        function openMaker() {
+            showGif();
+            document.getElementById("iframe1").src = "/Word/FileMaker";
+        }
+
+        function showGif() {
+            document.getElementById("loadGif").style.visibility = "";
+        }
+
+        function hideGif() {
+            document.getElementById("loadGif").style.visibility = "hidden";
+            document.getElementById("aDiv").style.display = "";
+        }
+    </script>
+    <form id="form1" runat="server">
+        <div>
+            <input type="button" value="生成文档" onclick="openMaker()" style="font-size:18px;" />
+            <span id="loadGif" style=" visibility:hidden;"><img src="/images/loading4.gif" style=" width:60px;  vertical-align:middle;" /></span>
+        </div>
+        <div id="aDiv" style="display: none; color: Red; font-size: 15px;">
+            <span>转换完成，可在下面的地址中查看转换后生成文档的效果：@Html.Raw(ViewBag.url)</span>
+        </div>
+        <div style="width: 1px; height: 0px; overflow: hidden;">
+            <iframe id="iframe1" name="iframe1" src=""></iframe>
+        </div>
+    </form>
+</body>
+</html>

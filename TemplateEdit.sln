@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateEdit", "TemplateEdit.csproj", "{240A090D-FF31-41F8-B289-9CFD1D3E4BBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{240A090D-FF31-41F8-B289-9CFD1D3E4BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240A090D-FF31-41F8-B289-9CFD1D3E4BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240A090D-FF31-41F8-B289-9CFD1D3E4BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240A090D-FF31-41F8-B289-9CFD1D3E4BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F966352-ADAC-4176-8608-8FAF68F3496A}
+	EndGlobalSection
+EndGlobal
