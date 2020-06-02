@@ -51,7 +51,7 @@
                 演示列表
             </h2>
             <div style=" text-align:right; height:40px; vertical-align:middle;">
-                <img src="images/arrow.gif" style=" vertical-align:middle;" /><a href="javascript:POBrowser.openWindow('Word/template', 'width=1200px;height=800px;');"><span style=" color:blue;">用户编辑Word模版</span></a>&nbsp;&nbsp;&nbsp;
+                <img src="images/arrow.gif" style=" vertical-align:middle;" /><a href="javascript:POBrowser.openWindowModeless('Word/template', 'width=1200px;height=800px;');"><span style=" color:blue;">用户编辑Word模版</span></a>&nbsp;&nbsp;&nbsp;
             </div>
             <table class="zz-talbe">
                 <thead>
@@ -73,11 +73,11 @@
                         <td style="text-align:center;">三种模式动态生成文件的效果</td>
                         <td style="text-align:center;">Word.aspx</td>
                         <td style="text-align:left;">
-                            <a href="javascript:POBrowser.openWindow('Word/open?type=1', 'width=1200px;height=800px;');"><span style=" color:blue;">编辑模式生成</span></a>
+                            <a href="javascript:POBrowser.openWindowModeless('Word/open?type=1', 'width=1200px;height=800px;');"><span style=" color:blue;">编辑模式生成</span></a>
                             &nbsp;&nbsp;&nbsp;
-                            <a href="javascript:POBrowser.openWindow('Word/open?type=2', 'width=1200px;height=800px;');"><span style=" color:blue;">只读模式生成</span></a>
+                            <a href="javascript:POBrowser.openWindowModeless('Word/open?type=2', 'width=1200px;height=800px;');"><span style=" color:blue;">只读模式生成</span></a>
                             &nbsp;&nbsp;&nbsp;
-                            <a href="javascript:POBrowser.openWindow('Word/open?type=3', 'width=1200px;height=800px;');"><span style=" color:blue;">提交模式(实现表单录入或局部编辑)</span></a>
+                            <a href="javascript:POBrowser.openWindowModeless('Word/open?type=3', 'width=1200px;height=800px;');"><span style=" color:blue;">提交模式(实现表单录入或局部编辑)</span></a>
                         </td>
                     </tr>
                     <tr>
@@ -85,7 +85,7 @@
                         <td style="text-align:center;">FileMaker.aspx</td>
                         <td style="text-align:left; ">
 
-                            <a href="javascript:POBrowser.openWindow('Word/openMaker', 'width=1200px;height=800px;');"><span style=" color:blue;">生成文件保存到后台服务器</span></a>
+                            <a href="javascript:POBrowser.openWindowModeless('Word/openMaker', 'width=1200px;height=800px;');"><span style=" color:blue;">生成文件保存到后台服务器</span></a>
                             <span id="loadGif" style=" visibility:hidden;"><img src="images/loading4.gif" style=" width:60px;  vertical-align:middle;" /></span>
                             <p style=" text-align:left; color:#666;">
                                 实现在客户端不显示PageOffice界面的情况下，动态填充数据到Word模版，生成文件自动保存到服务器上。（此演示生成的文件保存在doc目录下，文件名为：filemaker.doc）
